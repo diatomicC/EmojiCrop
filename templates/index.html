@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>이모티콘 자동 절단기</title>
+    <head>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+      <link rel="icon" href="carbonicon.png">
+    </head>
+  </head>
+  <body>
+    <div class="container">
+      <h1>이원자탄소의 이모티콘 자동 절단기</h1>
+      <form method="post" enctype="multipart/form-data" action="/upload">
+        <label for="file1" class="upload-label">File 1</label>
+        <input type="file" name="file1" id="file1" class="upload-input">
+        <label for="file2" class="upload-label">File 2</label>
+        <input type="file" name="file2" id="file2" class="upload-input">
+        <input type="submit" value="Upload">
+      </form>
+      <br>
+      <button onclick="window.location.href='https://darkened-hour-eee.notion.site/e9223ceafc4f40bb8b92fd6700718d09'">
+        사용설명서
+      </button>
+    </div>
+    <button class="title-btn" onclick="window.location.href='https://www.instagram.com/diatomicarbon/'">
+       만든사람: Diatomicarbon
+    </button>
+  </body>
+</html>
